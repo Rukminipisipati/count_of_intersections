@@ -4,6 +4,7 @@
 # For each start point, check for intersections with active end points.
 # Track the count of intersections and add the chord to the set of active chords.
 # For each end point, remove the corresponding start point from the set of active chords.
-# Big O-run time:
-  # Creating and sorting the chords: O(n * log(n))
-  # Iterating through the chords and checking intersections: O(n)
+# Big-O run time:
+  # Creating and sorting the chords: O(n * log(n)).
+  # Iterating through the chords and checking intersections: O(n).
+  # The overall Big-O run time is: O(n*log(n)). 
